@@ -9,11 +9,13 @@ class App
         let title = document.getElementById("newstitle")
         console.log(title);
 
-        let random = math.random();
+        let random = Math.random();
         console.log(random);
-        if(random < 0.2);
+        if(random < 0.2)
         {
             title.style.backgroundColor = "#FF0000";
+        } else {
+            title.style.backgroundColor = "#0000FF"
         }
     }
 }
