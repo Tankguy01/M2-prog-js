@@ -1,3 +1,13 @@
+
+function argumentsAreHandy(shoutout)
+{
+    console.log("do you want to give a shoutout?");
+    console.log(shoutout);
+
+}
+argumentsAreHandy("Super Shout out");
+argumentsAreHandy("Hou het netjes!");
+argumentsAreHandy("Doe je best!");
 function superMooieGlobalFunction()
 {
     console.log("ik ben global");
