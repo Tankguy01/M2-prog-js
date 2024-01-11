@@ -10,5 +10,7 @@ class App
 }
 let app = new App();
 app.runApplication();
+let title = document.getElementById("newstitle")
+
 
 
