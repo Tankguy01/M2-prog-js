@@ -6,7 +6,7 @@ class App
         let canvas = document.getElementById("canvasId");
         let g = canvas.getContext("2d");
         g.beginPath()
-       g.fillStyle = "yellow";
+       g.fillStyle = "gray";
        g.moveTo(70,20);
        g.lineTo(60,40);
        g.lineTo(80,30);
@@ -15,7 +15,7 @@ class App
        g.fill();
 
        g.beginPath()
-       g.fillStyle = "yellow";
+       g.fillStyle = "red";
        g.moveTo(30,10);
        g.lineTo(70,20);
        g.lineTo(60,40);
@@ -25,7 +25,7 @@ class App
        g.fill();
        
        g.beginPath()
-       g.fillStyle = "yellow";
+       g.fillStyle = "lightgray";
        g.moveTo(20,30);
        g.lineTo(60,40);
        g.lineTo(60,60);
@@ -35,7 +35,7 @@ class App
        g.fill();
 
        g.beginPath()
-       g.fillStyle = "yellow";
+       g.fillStyle = "gray";
        g.moveTo(60,40);
        g.lineTo(80,30);
        g.lineTo(80,50);
