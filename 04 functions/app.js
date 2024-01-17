@@ -87,9 +87,25 @@ class App
 {
     runApplication()
     {
-        console.log("hello world!")
+        console.log("hello world!");
+    }
+
+    newClassFUnction()
+    {
+        console.log("hello world in de nieuwClassFunction");
+
+    }
+
+    anotherFunctionWithArguments(aArgument)
+    {
+        console.log("kom maar met je argument");
+        console.log("hier:");
+        console.log(aArgument);
+
     }
 }
 let app = new App();
 app.runApplication();
+app.newClassFUnction();
+app.anotherFunctionWithArguments("mijn argument is iets...");
 superMooieGlobalFunction();
