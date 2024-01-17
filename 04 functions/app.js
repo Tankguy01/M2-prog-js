@@ -33,15 +33,23 @@ console.log(y2);
 
 let y3 = ax2bcWiskunde(7,1,2,13);
 console.log(y3);
+
 function Wiskunde()
-{
+{   
     let u = 9;
     let h = 8;
     let l = 15;
     let logY = Math.log(l) + h + Math.pow(u,2);
     console.log(logY);
-    console.log(Wiskunde)
-}
+    console.log(Wiskunde);
+ }
+
+    let o = 91.70005020110221;
+    let p = 10602.465735902799;
+    let m = 135.79175946922805;
+    let logO = Math.log(o) + p + Math.pow(m,2);
+    console.log(logO)
+
 
 function argumentsAreHandy(shoutout)
 {
