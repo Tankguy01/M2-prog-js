@@ -46,9 +46,14 @@ class App
 
        g.beginPath()
        g.fillStyle = "black";
+       if (Math.random()<0.5)
+       {
+        g.fillStyle = "white";
+    }
+       
        g.moveTo(20,40);
-       g.lineTo(20,40);
-       g.lineTo(40,40);
+       g.lineTo(20,45);
+       g.lineTo(40,45);
        g.lineTo(40,40);
        g.closePath();
        g.stroke();
