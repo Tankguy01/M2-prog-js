@@ -1,4 +1,22 @@
 
+function MARIO()
+{
+    console.log("MARIO!!");
+}
+
+
+function BWAHAHA()
+{
+    console.log ("BWAHAHA!!!");
+}
+
+let d = 10;
+let f = 12;
+function getalResultaat()
+{
+    
+}
+
 function heeftEenResultaat()
 {
     let resultaat =1;
@@ -60,6 +78,7 @@ function argumentsAreHandy(shoutout)
 argumentsAreHandy("Super Shout out");
 argumentsAreHandy("Hou het netjes!");
 argumentsAreHandy("Doe je best!");
+
 function superMooieGlobalFunction()
 {
     console.log("ik ben global");
@@ -109,3 +128,5 @@ app.runApplication();
 app.newClassFUnction();
 app.anotherFunctionWithArguments("mijn argument is iets...");
 superMooieGlobalFunction();
+MARIO();
+BWAHAHA();
