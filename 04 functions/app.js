@@ -12,10 +12,8 @@ function BWAHAHA()
 
 let d = 10;
 let f = 12;
-function getalResultaat()
-{
-    
-}
+let ly
+
 
 function heeftEenResultaat()
 {
